@@ -1,4 +1,4 @@
-# Basic Backend Developer Interview
+# Basic Symfony Backend Developer Interview
 
 Dear candidate, please follow this readme and solve all questions.
 
@@ -7,8 +7,8 @@ Dear candidate, please follow this readme and solve all questions.
 **This test requires:**
 - access to the internet
 - your favourite IDE
-- working dev environment (PHP 5.6+ or Node.js 6+)
-- database (MongoDB, Postgres, MySQL)
+- working dev environment (PHP 5.6 or PHP 7.1)
+- database (MySQL or MongoDB)
 - nginx or alternative simple dev web server
 
 **Good luck!**
@@ -19,7 +19,7 @@ Dear candidate, please follow this readme and solve all questions.
 
 ## Test tasks:
 
-**NOTE:** You are free to use any framework you wish. Bonus points for an explanation of your choice.
+**NOTE:** Please develop tasks below in Symfony 2(or 3):
 
 1. Specify a default controller
   - for route `/`
@@ -50,34 +50,16 @@ Dear candidate, please follow this readme and solve all questions.
   - with a hazardous parameter, where `true` means `is hazardous`
   - default hazardous value is `false`
   - format JSON
-
-6. Create a route `/neo/best-year?hazardous=(true|false)`
-  - analyze all data
-  - calculate and return a year with most asteroids
-  - with a hazardous parameter, where `true` means `is hazardous`
-  - default hazardous value is `false`
-  - format JSON
-
-7. Create a route `/neo/best-month?hazardous=(true|false)`
-  - analyze all data
-  - calculate and return a month with most asteroids (not a month in a year)
-  - with a hazardous parameter, where `true` means `is hazardous`
-  - default hazardous value is `false`
-  - format JSON
    
 ## Additional Instructions
 
 - After you're done, provide us the link to your repository.
 - Leave comments where you were not sure how to properly proceed.
-- Implementations without a README will be automatically rejected.
 
 ## Bonus Points
 
-- Test.
 - Clean code!
+- Test.
 - Knowledge of application flow.
 - Knowledge of modern best practices/coding patterns.
 - Componential thinking.
-- Knowledge of Docker.
-- (PHP only) Usage of symfony framework.
-- Usage of MongoDB as persistance storage.
