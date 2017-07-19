@@ -9,7 +9,6 @@ Dear candidate, please follow this readme and solve all questions.
 - your favourite IDE
 - working dev environment (PHP 5.6 or PHP 7.1)
 - database (MySQL or MongoDB)
-- nginx or alternative simple dev web server
 
 **Good luck!**
 
