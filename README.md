@@ -44,7 +44,7 @@ Dear candidate, please follow this readme and solve all questions.
   - format JSON
 
 5. Create a route `/neo/fastest?hazardous=(true|false)`
-  - analyze all data
+  - for data already in internal database
   - calculate and return the model of the fastest asteroid
   - with a hazardous parameter, where `true` means `is hazardous`
   - default hazardous value is `false`
